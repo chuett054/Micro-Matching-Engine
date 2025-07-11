@@ -1,5 +1,5 @@
-CMakeFiles/engine.dir/src/main.cpp.o: \
-  /Users/colehuetten/Projects/Trading/Micro-Matching-Engine/matching-engine/src/main.cpp \
+CMakeFiles/engine.dir/src/config/ConfigLoader.cpp.o: \
+  /Users/colehuetten/Projects/Trading/Micro-Matching-Engine/matching-engine/src/config/ConfigLoader.cpp \
   /Users/colehuetten/Projects/Trading/Micro-Matching-Engine/matching-engine/include/engine/ConfigLoader.hpp \
   /Users/colehuetten/Projects/Trading/Micro-Matching-Engine/matching-engine/include/engine/config.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
@@ -641,7 +641,8 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
+  /opt/homebrew/include/yaml-cpp/yaml.h \
+  /opt/homebrew/include/yaml-cpp/parser.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api.h \
@@ -679,7 +680,9 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /opt/homebrew/include/yaml-cpp/dll.h \
+  /opt/homebrew/include/yaml-cpp/emitter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference \
@@ -717,6 +720,7 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
@@ -793,4 +797,36 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /opt/homebrew/include/yaml-cpp/binary.h \
+  /opt/homebrew/include/yaml-cpp/emitterdef.h \
+  /opt/homebrew/include/yaml-cpp/emittermanip.h \
+  /opt/homebrew/include/yaml-cpp/null.h \
+  /opt/homebrew/include/yaml-cpp/ostream_wrapper.h \
+  /opt/homebrew/include/yaml-cpp/emitterstyle.h \
+  /opt/homebrew/include/yaml-cpp/stlemitter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /opt/homebrew/include/yaml-cpp/exceptions.h \
+  /opt/homebrew/include/yaml-cpp/mark.h \
+  /opt/homebrew/include/yaml-cpp/noexcept.h \
+  /opt/homebrew/include/yaml-cpp/traits.h \
+  /opt/homebrew/include/yaml-cpp/node/node.h \
+  /opt/homebrew/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /opt/homebrew/include/yaml-cpp/node/ptr.h \
+  /opt/homebrew/include/yaml-cpp/node/type.h \
+  /opt/homebrew/include/yaml-cpp/node/impl.h \
+  /opt/homebrew/include/yaml-cpp/node/detail/memory.h \
+  /opt/homebrew/include/yaml-cpp/node/detail/node.h \
+  /opt/homebrew/include/yaml-cpp/node/detail/node_ref.h \
+  /opt/homebrew/include/yaml-cpp/node/detail/node_data.h \
+  /opt/homebrew/include/yaml-cpp/node/detail/node_iterator.h \
+  /opt/homebrew/include/yaml-cpp/node/iterator.h \
+  /opt/homebrew/include/yaml-cpp/node/detail/iterator.h \
+  /opt/homebrew/include/yaml-cpp/node/convert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
+  /opt/homebrew/include/yaml-cpp/node/detail/impl.h \
+  /opt/homebrew/include/yaml-cpp/node/parse.h \
+  /opt/homebrew/include/yaml-cpp/node/emit.h

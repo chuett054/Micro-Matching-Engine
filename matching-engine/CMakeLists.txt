@@ -24,6 +24,7 @@ file(COPY
 
 add_executable(engine
   src/main.cpp
+  src/config/ConfigLoader.cpp
   #todo:  add other .cpp files…
 )
 

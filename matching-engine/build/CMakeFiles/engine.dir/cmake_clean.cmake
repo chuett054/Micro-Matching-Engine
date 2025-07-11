@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/engine.dir/src/config/ConfigLoader.cpp.o"
+  "CMakeFiles/engine.dir/src/config/ConfigLoader.cpp.o.d"
   "CMakeFiles/engine.dir/src/main.cpp.o"
   "CMakeFiles/engine.dir/src/main.cpp.o.d"
   "engine"

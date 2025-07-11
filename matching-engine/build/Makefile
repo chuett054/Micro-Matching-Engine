@@ -129,6 +129,30 @@ engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/build
 .PHONY : engine/fast
 
+src/config/ConfigLoader.o: src/config/ConfigLoader.cpp.o
+.PHONY : src/config/ConfigLoader.o
+
+# target to build an object file
+src/config/ConfigLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/config/ConfigLoader.cpp.o
+.PHONY : src/config/ConfigLoader.cpp.o
+
+src/config/ConfigLoader.i: src/config/ConfigLoader.cpp.i
+.PHONY : src/config/ConfigLoader.i
+
+# target to preprocess a source file
+src/config/ConfigLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/config/ConfigLoader.cpp.i
+.PHONY : src/config/ConfigLoader.cpp.i
+
+src/config/ConfigLoader.s: src/config/ConfigLoader.cpp.s
+.PHONY : src/config/ConfigLoader.s
+
+# target to generate assembly for a file
+src/config/ConfigLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/config/ConfigLoader.cpp.s
+.PHONY : src/config/ConfigLoader.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... engine"
+	@echo "... src/config/ConfigLoader.o"
+	@echo "... src/config/ConfigLoader.i"
+	@echo "... src/config/ConfigLoader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

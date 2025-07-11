@@ -1,15 +1,15 @@
+#include "engine/ConfigLoader.hpp"
 #include <iostream>
-#include <yaml-cpp/yaml.h>
 
-int main(int argc, char** argv) {
+int main() {
     try {
-        YAML::Node config = YAML::LoadFile("config/config.yaml");
-        std::cout << "loaded config with "
-                  << config.size()
-                  << " entries.\n";
+        auto cfg = engine::ConfigLoader::load("config/config.yaml");
+        std::cout << "Config: book_depth=" << cfg.book_depth
+                  << ", use_skiplist=" << std::boolalpha << cfg.use_skiplist
+                  << "\n";
     } catch (const std::exception& ex) {
-        std::cout << "failed to load config: "
-                  << ex.what() << "\n";
+        std::cerr << "error loading config: " << ex.what() << "\n";
+        return 1;
     }
 
     std::cout << "hello matching engine.\n";

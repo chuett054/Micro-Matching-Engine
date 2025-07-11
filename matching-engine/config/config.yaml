@@ -1,2 +1,2 @@
-book_depth: 100
-use_skiplist: false
+book_depth: 50
+use_skiplist: true
