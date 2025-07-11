@@ -1,0 +1,3 @@
+[submodule "matching-engine/externals/cpp-httplib"]
+	path = matching-engine/externals/cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib.git
